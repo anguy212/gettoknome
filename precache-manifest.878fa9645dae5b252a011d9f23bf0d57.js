@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "78a420a37cdc4b67177bdb2eb1552621",
+    "revision": "964800f8a452ae38fb0fc5e74d314a47",
     "url": "/gettoknome/index.html"
   },
   {
-    "revision": "41ca2bc92dfa1f1f78ae",
+    "revision": "17a6267c3781d9f2a583",
     "url": "/gettoknome/static/css/main.9c21797f.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gettoknome/static/js/2.5af4c248.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "41ca2bc92dfa1f1f78ae",
-    "url": "/gettoknome/static/js/main.1b0e7635.chunk.js"
+    "revision": "17a6267c3781d9f2a583",
+    "url": "/gettoknome/static/js/main.b514f186.chunk.js"
   },
   {
     "revision": "9689b6459d2ffca68076",
@@ -52,8 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gettoknome/static/media/Interests.e38eb112.png"
   },
   {
-    "revision": "32b4bf639a9b63f28af5d9728f952b0d",
-    "url": "/gettoknome/static/media/NguyenAliceResume.32b4bf63.pdf"
+    "revision": "20ff8a8f9c83ebfbd866c7e008776832",
+    "url": "/gettoknome/static/media/NguyenAliceResume.20ff8a8f.pdf"
   },
   {
     "revision": "510c14ef0d84144e6bbcb68b531c85c3",
