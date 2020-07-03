@@ -8,8 +8,6 @@ import Project from './Components/Project'
 import Main from './Components/Main'
 import * as Scroll from 'react-scroll'
 
-
-
 const Icons = {
   aboutMe: require('./Assets/AboutMeIcon.png'),
   projects: require('./Assets/IdeaIcon.png'),
@@ -18,6 +16,15 @@ const Icons = {
 }
 
 function App() {
+  const isTabletOrMobile = useMediaQuery({ maxWidth: 1224 })
+  if(isTabletOrMobile)
+  {
+    return(
+      <section>
+        <h1>Sorry, this app is not configured for mobile or tablet devices yet.</h1>
+      </section>
+    )
+  }
   return (
     <section className = "App">
         < Scroll.Element name = "Main">
