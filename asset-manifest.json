@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/gettoknome/static/css/main.9c21797f.chunk.css",
-    "main.js": "/gettoknome/static/js/main.7a24cbc4.chunk.js",
-    "main.js.map": "/gettoknome/static/js/main.7a24cbc4.chunk.js.map",
+    "main.js": "/gettoknome/static/js/main.e7eb5fc8.chunk.js",
+    "main.js.map": "/gettoknome/static/js/main.e7eb5fc8.chunk.js.map",
     "runtime-main.js": "/gettoknome/static/js/runtime-main.e7cd446d.js",
     "runtime-main.js.map": "/gettoknome/static/js/runtime-main.e7cd446d.js.map",
     "static/js/2.7cec45a4.chunk.js": "/gettoknome/static/js/2.7cec45a4.chunk.js",
     "static/js/2.7cec45a4.chunk.js.map": "/gettoknome/static/js/2.7cec45a4.chunk.js.map",
     "index.html": "/gettoknome/index.html",
-    "precache-manifest.c726b357289ecd3be2be99ca28335036.js": "/gettoknome/precache-manifest.c726b357289ecd3be2be99ca28335036.js",
+    "precache-manifest.a63e5f8d472279967ac5f258758abf11.js": "/gettoknome/precache-manifest.a63e5f8d472279967ac5f258758abf11.js",
     "service-worker.js": "/gettoknome/service-worker.js",
     "static/css/main.9c21797f.chunk.css.map": "/gettoknome/static/css/main.9c21797f.chunk.css.map",
     "static/js/2.7cec45a4.chunk.js.LICENSE.txt": "/gettoknome/static/js/2.7cec45a4.chunk.js.LICENSE.txt",
@@ -29,6 +29,6 @@
     "static/js/runtime-main.e7cd446d.js",
     "static/js/2.7cec45a4.chunk.js",
     "static/css/main.9c21797f.chunk.css",
-    "static/js/main.7a24cbc4.chunk.js"
+    "static/js/main.e7eb5fc8.chunk.js"
   ]
 }
