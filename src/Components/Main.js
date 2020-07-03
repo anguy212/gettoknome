@@ -24,7 +24,7 @@ export default function Main({image, title}){
             </h2>
             <p style = {{fontFamily: "Andale Mono",fontSize: 16,textAlign: "center"}}>
               Welcome to my portfolio website! I am a recent college grad hoping to pursue a career 
-              in software Developing. Feel free to explore around and get in contact with me about any available opportunities.
+              in software developing. Feel free to explore around and get in contact with me about any available opportunities.
             </p>
         </div>
         <div>
