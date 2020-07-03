@@ -1,25 +1,51 @@
 import React from 'react';
-import logo from './logo.svg';
+import {useMediaQuery} from 'react-responsive'
 import './App.css';
+import Resume from './Components/Resume'
+import AboutMe from './Components/AboutMe'
+import Contact from './Components/Contact'
+import Project from './Components/Project'
+import Main from './Components/Main'
+import * as Scroll from 'react-scroll'
+
+
+
+const Icons = {
+  aboutMe: require('./Assets/AboutMeIcon.png'),
+  projects: require('./Assets/IdeaIcon.png'),
+  resume: require('./Assets/ResumeIcon.png'),
+  contact: require('./Assets/ContactIcon.png')
+}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <section className = "App">
+        < Scroll.Element name = "Main">
+          <Main/>
+        </Scroll.Element>
+        <hr style = {{height:.5, color: '#79747d', backgroundColor: '#79747d', borderColor: '#79747d', 
+        marginTop:20}} noshade/>
+        <Scroll.Element name = "AboutMe">
+          <AboutMe/>
+        </Scroll.Element>
+        <hr style = {{height:.5, color: '#79747d', backgroundColor: '#79747d', borderColor: '#79747d', 
+        marginTop:20}} noshade/>
+        <Scroll.Element name = "Project">
+          <Project/>
+        </Scroll.Element>
+        <hr style = {{height:.5, color: '#79747d', backgroundColor: '#79747d', borderColor: '#79747d', 
+        marginTop:20}} noshade/>
+        <Scroll.Element name = "Resume">
+          <Resume/>
+        </Scroll.Element>
+        <hr style = {{height:.5, color: '#79747d', backgroundColor: '#79747d', borderColor: '#79747d', 
+        marginTop:20}} noshade/>
+        <Scroll.Element name = "Contact">
+          <Contact/>
+        </Scroll.Element>
+        <hr style = {{height:.5, color: '#79747d', backgroundColor: '#79747d', borderColor: '#79747d', 
+        marginTop:20}} noshade/>
+    </section>
   );
 }
 

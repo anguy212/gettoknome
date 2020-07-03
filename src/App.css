@@ -1,38 +1,134 @@
-.App {
-  text-align: center;
+
+html, 
+body {
+    height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App { 
+  height: 100%;
+  background-color: #AAB6CB;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Title {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-content: center;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /* padding: 0px 0px 0px 40px; */
 }
 
-.App-link {
-  color: #61dafb;
+.ProfilePic{
+  display: flex;
+  padding: 50px 0px 5px 0px;
+  margin-left: 80px;
+  margin-right: 80px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Intro{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50;
+  margin-top: 50;
+  padding: 0px 400px 90px 400px;
+}
+
+.ToolBar{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  padding: 0px 100px 0px 100px;
+  margin-right: 220px;
+  margin-left: 220px;
+  background-color: #677285;
+  border-radius: 40px;
+}
+
+.Icons{
+  display: flex;
+  flex-direction: column;
+  margin-right: 75px;
+  margin-left: 75px;
+  padding: 10px 0px 10px 0px;
+  white-space: nowrap;
+}
+
+.AboutMeCat{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+  margin-right: 30px;
+  margin-left: 30px
+}
+
+.ResumeInsert{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+.aboutMeSec{
+  display:flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #D4873D;
+  padding: 0px 20px 0px 20px;
+  border-radius: 30px;
+}
+
+.ProjectSlide{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-right: 130px;
+  margin-left: 130px;
+  padding: 5px 5px 5px 5px;
+}
+
+.SlideInfo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  align-items: flex-start;
+  background-color: #9EAABF;
+  padding: 5px 5px 5px 5px;
+}
+
+.SlideText{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.projectList{
+  line-height: 200%;
+}
+
+.ContactInfo{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 50px 50px 50px;
+  background-color: #D4873D;
+  margin-bottom: 110px;
+  margin-top: 65px;
 }
