@@ -15,7 +15,7 @@ export default function Resume({image, title}){
                 marginTop:18}}>Resume</h1>
             <h1 style={{textAlign:"center", marginTop:-120, fontSize: 60, fontFamily: "Andale Mono", marginBottom: 20}}>Resume</h1>
             <div className = "ResumeInsert">
-                <embed src={require('../Assets/NguyenAliceResume.pdf')} width = "700" height = "472"/>
+                <embed src={require('../Assets/NguyenAliceResume.pdf')} width = "700" height = "452"/>
             </div>
             <div>
                 <div className = "ToolBar">
